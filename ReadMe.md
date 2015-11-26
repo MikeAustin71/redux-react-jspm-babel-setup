@@ -1,8 +1,10 @@
-# Redux React JSX JSPM Babel Project Setup
+# Redux React JSX JSPM SystemJs Babel Project Setup
 ### Simple Redux Single Immutable State Tree Demo
 ---
 
-This is a working setup configuration for the latest versions of jspm, Redux, React, JSX and babel-6.
+This is a working project setup configuration for the latest versions of jspm, systemjs, redux, react, jsx and babel-6.
+
+For the specific project setup steps, see Section 'Setup/Install Procedures' below.
 
 The setup includes a work-around for the jspm conflict related to the
 babel-runtime (see Item 2-b). Essentially, the conflict means that babel cannot
@@ -12,6 +14,7 @@ components to be installed globally, instead of locally.
 Hopefully, this issue will be addressed in the next release of jspm or babel.
 In the meantime, this workaround supports development with the latest version
 of React.
+
 
 **Feel free to make improvements...**
 
@@ -38,7 +41,7 @@ work best.
 * IE
 
 ## Source Code for this Demo
-The source code for this demo was taken from the free EggheadIO 
+The source code for this demo was taken from the free EggheadIO tutorial 
 [Redux: The Single Immutable Tree](https://egghead.io/lessons/javascript-redux-the-single-immutable-state-tree?series=getting-started-with-redux) by Dan Abramov
 
 ## Why the complexity?
@@ -164,22 +167,12 @@ with new babel-6 versions for 'babel-cli', 'babel-core'
 and 'babel-runtime'.
 
 
-```
-"dependencies": {
-      "babel-cli": "npm:babel-cli@^6.2.0",
-      "babel-core": "npm:babel-core@^6.2.1",
-```
-```
-    "devDependencies": {
-      "babel": "npm:babel-core@^6.2.1",
-      "babel-runtime": "npm:babel-runtime@^6.2.0",
-```
-
 #### 9-c Modify config.js
 
 ##### 9-c-1 Use Search and Replace to replace old babel-5 versions
 with new babel-6 versions for 'babel-cli', 'babel-core'
 and 'babel-runtime'.
+
 
 ##### 9-c-2 Delete duplicate entry
 
