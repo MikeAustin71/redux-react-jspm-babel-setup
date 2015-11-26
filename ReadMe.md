@@ -33,12 +33,11 @@ babel-runtime 6.2.0
 ```
 
 ## Browsers
-Works in all the following browsers. In IE, the 'bundled' versions seems to
-work best.
+Works in all the following browsers. IE had issues.
 * Chrome
 * FireFox
 * Edge
-* IE
+* IE - Click on the 'ToDo' items and the cross-through line failed to function.
 
 ## Source Code for this Demo
 The source code for this demo was taken from the free EggheadIO tutorial 
