@@ -1,0 +1,22 @@
+{
+  "name": "redux-react-jspm-babel-setup",
+  "version": "1.0.0",
+  "description": "Project Setup for redux, react, jspm and babel",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel src --out-dir build --source-maps true"
+  },
+  "keywords": [
+    "jspm",
+    "react",
+    "redux",
+    "eggheadio",
+    "babel"
+  ],
+  "author": "@AmarilloMike",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "file:///G:/Git/React/EggheadIO/ReactFundamentals3"
+  }
+ }
