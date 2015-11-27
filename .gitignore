@@ -1,6 +1,6 @@
 
-# Git Ignore For Multiple Projects#
-###################
+# Git Ignore For Multiple Projects #
+
 *.user
 *.gpState
 *.suo
@@ -8,8 +8,8 @@ bin/
 obj/
 /packages
 
-# Ignore Node & Bower
-###################
+# Ignore Node & Bower #
+
 node_modules/
 bower_components/
 jspm_packages/
@@ -17,15 +17,16 @@ lib/
 cmdrx/
 .tmp
 
-# Ignore Test reporters
-###################
+
+# Ignore Test reporters #
+
 **/test/coverage
 report
 
 
-# mongo db
-###################
-#Don't commit Mongo Database files
+# mongo db #
+
+#Don't commit Mongo Database files #
 *.lock
 *.0
 *.1
@@ -36,16 +37,15 @@ journal
 .idea
 
 # Compiled source #
-###################
+
 *.com
 *.class
 *.dll
-000_baseReactSetup/CmdrX.exe
 *.o
 *.so
 
 # Packages #
-############
+
 # it's better to unpack these files and commit the raw source
 # git has its own built in compression methods
 *.7z
@@ -59,17 +59,18 @@ journal
 *.zip
 
 # Logs and databases #
-######################
+
 *.log
 *.sql
 *.sqlite
-# *.sdf
+*.sdf
 *.mdf
 *.ldf
 
 # OS generated files #
-######################
+
 .DS_Store*
 ehthumbs.db
 Icon?
 Thumbs.db
+

@@ -82,8 +82,7 @@ __Result:
 npm install --global babel-cli
 ```
 
----
-##### 2-b Work-around for Babel 6 JSPM conflict - Run these npm global installations
+#### 2-b Work-around for Babel 6 JSPM conflict - Run these npm global installations
 * a. npm install -g babel-preset-react
 * b. npm install -g babel-preset-es2015
 * c. npm install -g babel-preset-stage-0
@@ -107,6 +106,7 @@ npm install -g jspm
 ```
 npm install jspm --save-dev
 ```
+
 
 ### 5. Initialize JSPM
 ```
@@ -141,7 +141,7 @@ jspm init
   * b. jspm install npm:react-dom
   * c. jspm install npm:redux
 
-### 8. Install optional packages as necessary  
+### 8. Install optional packages as necessary
   * a. jspm install jquery
   * b. jspm install npm:lodash
 
